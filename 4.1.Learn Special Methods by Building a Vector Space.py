@@ -72,7 +72,6 @@ class R3Vector(R2Vector):
             'y': self.z * other.x - self.x * other.z,
             'z': self.x * other.y - self.y * other.x
         }
-        
         return self.__class__(**kwargs)
 
 v1 = R3Vector(x=2, y=3, z=1)
